@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navcontainer{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+}
+.navbarlist li{
+    width: 20%;
+    list-style-type: none;
+    color: rgb(18, 85, 116);
+}
+/* header************************* */
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.20)), url(lionar0t.jpg);
+	background-attachment: fixed;
+	min-height: 500px; 
+	width: 100%;
+	height: 100vh;
+	
+	background-size:cover;
+}
+h2,p{
+    color: white;
+}
+.tiles{
+    justify-content: center;
+}
+.headers{
+    position: absolute;
+    font-weight: 700;
+    top: 40%;
+    color: azure;
+    left: 14%;
+    font-size: 180%;
+
+}
+.tiles1{
+    background-color: #87CC00;
+}
+.tiles2{
+    background-color: #00ADEF;
+}
+.tiles3{
+    background-color: #FF0101;
+}
+.fulltitle{
+    color: rgb(255, 0, 0);
+    font-size: 190%;
+    
+
+}
+.collegeimg{
+    height: 40vh;
+    
+    background-attachment: fixed;
+    
+    background-image: url(./bg1.jpg);
+    background-size: cover;
+}
